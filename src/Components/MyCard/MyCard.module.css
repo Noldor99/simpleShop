@@ -1,0 +1,30 @@
+.container{
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.title{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.2
+}
+
+.container__btn{
+  display: flex;
+  gap: 15px;
+  justify-content: end;
+}
+
+.container__btnCard{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__btnCard p{
+  margin: 0;
+}

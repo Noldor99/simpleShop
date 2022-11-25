@@ -1,0 +1,31 @@
+.container{
+  position: relative;
+  width: 45px;
+  height: 45px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border-color:rgb(255, 255, 255);
+}
+
+svg{
+  width: 25px;
+  fill:rgb(255, 255, 255);
+}
+
+.counter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: red;
+  border-radius: 50%;
+  color: white;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  bottom : 0;
+  right: 0;
+  transform: translate(25%, 25%);
+}

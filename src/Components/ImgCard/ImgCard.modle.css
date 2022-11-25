@@ -1,0 +1,6 @@
+img{
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+  padding-bottom: 8px;
+}
